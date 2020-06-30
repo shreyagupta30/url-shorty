@@ -1,0 +1,16 @@
+dist: xenial
+group: edge
+stages:
+- name: Tests
+  if: branch = master AND type = push AND fork = false
+jobs:
+  include:
+stage: Tests
+    name: Linting Tests
+    language: python
+    python: '3.8'
+    cache: pip
+    install:
+    - pip install pre-commit
+    script:
+    - pre-commit run --all-files

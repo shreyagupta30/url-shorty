@@ -17,6 +17,7 @@ singledispatch = "==3.4.0.3"
 six = "==1.15.0"
 Django = ">=2.2.13"
 Rx = "==1.6.1"
+pre-commit = "*"
 
 [requires]
 python_version = "3.8"
