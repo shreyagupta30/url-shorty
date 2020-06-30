@@ -1,7 +1,7 @@
 # URL Shorty
 This is a service to shorten long URLs into secure hashURLs to make it easy to share. I built this to learn Graphql and how to use it Django and React. 
 
-Right now, it is a backend service. Implementation with React with in progress. 
+Right now, it is a backend service. Implementation with React is in progress. 
 
 ## Installation
 
@@ -40,10 +40,10 @@ mutation {
   }
 }
 ```
-Click the play button to see the Output something like this
+Click the play button to see the Output, something like this:
 ```
 {
-    "datat": {
+    "data: {
      "urls": [
          {
         "id": "1",
@@ -57,8 +57,8 @@ Click the play button to see the Output something like this
 }
 ```
 This will create the changes in the databases.
+To fetch the changed URL, run the query
 
-To fetch the changes URL, run the query
 ``` 
 query {
   urls {
@@ -72,4 +72,4 @@ query {
 ```
 This is show the above mutation that your created.
 
-Hope this helps, t                                      hank you! 
+Hope this helps, thank you! :D
