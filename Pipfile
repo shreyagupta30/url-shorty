@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+aniso8601 = "==7.0.0"
+graphene = "==2.1.8"
+graphene-django = "==2.10.1"
+graphql-core = "==2.3.2"
+graphql-relay = "==2.0.1"
+promise = "==2.3"
+pytz = "==2020.1"
+singledispatch = "==3.4.0.3"
+six = "==1.15.0"
+Django = "==2.1.7"
+Rx = "==1.6.1"
+
+[requires]
+python_version = "3.8"
