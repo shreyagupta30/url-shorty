@@ -1,6 +1,6 @@
 import graphene
 
-import shortner.schema
+import  shortner.schema
 
 class Query(shortner.schema.Query, graphene.ObjectType):
     pass
