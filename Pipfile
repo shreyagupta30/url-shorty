@@ -15,7 +15,7 @@ promise = "==2.3"
 pytz = "==2020.1"
 singledispatch = "==3.4.0.3"
 six = "==1.15.0"
-Django = "==2.1.7"
+Django = "==2.2.13"
 Rx = "==1.6.1"
 
 [requires]
