@@ -40,10 +40,10 @@ mutation {
   }
 }
 ```
-Click the play button to see the Output something like this
+Click the play button to see the Output, something like this:
 ```
 {
-    "datat": {
+    "data: {
      "urls": [
          {
         "id": "1",
@@ -57,8 +57,8 @@ Click the play button to see the Output something like this
 }
 ```
 This will create the changes in the databases.
+To fetch the changed URL, run the query
 
-To fetch the changes URL, run the query
 ``` 
 query {
   urls {
@@ -72,4 +72,4 @@ query {
 ```
 This is show the above mutation that your created.
 
-Hope this helps, t                                      hank you! 
+Hope this helps, thank you! :D
