@@ -18,6 +18,7 @@ six = "==1.15.0"
 Django = ">=2.2.13"
 Rx = "==1.6.1"
 pre-commit = "*"
+django-cors-headers = "*"
 
 [requires]
 python_version = "3.8"
