@@ -7,9 +7,6 @@ Right now, it is a backend service. Implementation with React is in progress.
 
 1. Fork the repository
 2. Clone the forked repository
-``` bash
-git clone https://github.com/shreyagupta30/url-shorty.git
-```
 3. Change into the cloned repository
 4. Activate the virtuL environment
 ``` bash
